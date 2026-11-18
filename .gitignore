@@ -1,0 +1,27 @@
+# Machine-specific Android configuration and generated output.
+local.properties
+.gradle/
+.kotlin/
+.idea/
+**/build/
+*.iml
+*.apk
+*.aab
+*.log
+*.hprof
+*.dump
+.DS_Store
+
+# Signing material and private financial/research data never belong in source control.
+*.jks
+*.keystore
+keystore.properties
+*.db
+*.db-shm
+*.db-wal
+.env
+.env.*
+research/data/
+research/results/
+**/__pycache__/
+*.pyc
